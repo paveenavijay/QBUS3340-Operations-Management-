@@ -1,0 +1,7 @@
+,MAE,RMSE,MAPE_pct,Bias
+Naive (yesterday),7.13,8.78,13.0,0.41
+Seasonal naive (same weekday last week),7.74,9.62,13.92,0.79
+7-day moving average,6.1,7.56,11.29,0.76
+Linear regression (OLS),4.72,5.78,8.34,-0.99
+Ridge regression (alpha=0.01),4.71,5.78,8.34,-0.99
+Gradient boosting (depth 2),5.29,6.63,9.4,-1.46
